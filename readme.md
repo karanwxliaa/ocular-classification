@@ -1,9 +1,6 @@
-﻿
-
-**DOCUMENTATION ON QUALITY WEEK – ML/DL CONTEST ON IMAGE CLASSIFICATION**
+# DOCUMENTATION ON QUALITY WEEK – ML/DL CONTEST ON IMAGE CLASSIFICATION
 
 Team name: Team Name
-
 Team members: Jaskaran Singh Walia (21BCE1089) Jesher Joshua (21BAI1925)
 
 **Introduction:**
@@ -30,6 +27,7 @@ tuned and optimized for the dataset. The model was trained with the SGD loss fun
 
 trying out the Adam and LazyAdam optimizers.
 
+
 Other hyperparameters used after extensive re-iteration and testing were
 
 Batch size 64
@@ -37,10 +35,6 @@ Batch size 64
 Img size 32x32
 
 Epochs 11
-
-
-
-
 
 Optimizer SGD
 
@@ -53,68 +47,6 @@ The Resnet50 model was fine-tuned and achieved an accuracy of 95% on the train d
 92% on the test dataset. This was achieved after hyperparameter tuning, including learning rate
 
 adjustments and batch size adjustments. The model was trained for a total of 11 epochs.
-
-**Model**
-
-**Final Score**
-
-VGG19
-
-82%
-
-68%
-
-73%
-
-62%
-
-84%
-
-92%
-
-MobileNet
-
-GoogLeNet
-
-Alexnet
-
-ElasticNet
-
-Resnet50
-
-Results obtained by other transfer learning models.
-
-**Evaluation metrics:**
-
-**Total Train-Test split was 60% - 40% which concluded the images to be**
-
-**Train = 2532**
-
-**Test = 1685**
-
-**Confusion Matrix:**
-
-
-
-
-
-**Accuracy & Loss:**
-
-**Precision, Recall, F1-Score, Support:**
-
-
-
-
-
-**ROC Curve:**
-
-**Sensitivity:**
-
-**Kappa score:**
-
-**Visualizing results:**
-
-
 
 
 
